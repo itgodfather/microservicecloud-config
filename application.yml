@@ -1,0 +1,15 @@
+ spring:
+  profiles:
+    active:
+    - dev
+    
+---
+  spring:
+   profiles: dev
+   application:
+      name: microservicecloud-config-sohu-dev
+---
+  spring:
+    profiles: test
+    application:
+      name: microservicecloud-config-sohu-test
